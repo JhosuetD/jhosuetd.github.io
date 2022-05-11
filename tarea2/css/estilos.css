@@ -1,0 +1,86 @@
+* {
+    box-sizing: content-box;
+    background-color: rgb(123, 153, 187);
+    font-family: 'Nunito', sans-serif;
+}
+
+.fondo {
+    background-image: url("../img/wallpaper.jpg");
+        opacity: 0.2;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+li {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+.hola {
+    margin-top: 150px;
+    margin-left: 20px;
+    color: yellow;
+    font-size: 70px;
+    line-height: 2em;
+}
+
+.texto_presentacion {
+    font-size: 25px;
+    margin-left: 75px;
+    color: blue;
+
+}
+
+.imagen {
+    margin-left: 60vh;
+    margin-top: -60px;
+    border-radius: 25px;
+    width: 200px;
+}
+
+.redes_sociales {
+    margin-left: 20px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-color: navajowhite;
+    border-radius: 15%;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 140px;
+}
+
+.tarea12, .servicio1 {
+    margin-left: 75px;
+   
+
+}
+
+.tarea21, .servicio2 {
+   margin-left: 30%;
+   margin-top: -300px;
+
+}
+
+.servicio3 {
+    margin-left: 60%;
+    margin-top: -320px;
+ }
+
+ form {
+     margin-left: 15%;
+ }
