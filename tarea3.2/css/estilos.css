@@ -1,0 +1,126 @@
+* {
+    
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     background-color: rgba(43, 226, 70, 0.968);
+     font-family: 'Nunito', sans-serif;
+   
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  @meDia (min-width: 600px) {
+      .head { width: 100%;
+            order: 1;}
+        .main{
+            width: 100%;
+            order: 2;}
+
+        .div{
+            width: 100%;
+            order: 3;
+        }
+        .footer{ width: 100%;
+            order: 4;}
+
+      }
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+li {
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 20;
+    font-size: 20px;   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+
+}
+
+a:hover {
+    color: rgba(225, 13, 13, 0.815);
+}
+
+P5{
+    color: rgba(79, 53, 9, 0.915);
+    font-size: 40px;
+
+}
+.hola {
+    margin-top: 150px;
+    margin-left: 20px;
+    color: rgba(62, 42, 2, 0.992);
+    font-size: 70px;
+    line-height: 2em;
+}
+
+.texto_presentacion {
+    font-size: 30px;
+    margin-left: 75px;
+    color: rgb(8, 8, 65);
+
+}
+.imagen {
+    
+    flex-wrap: wrap;
+    margin-left: 50vh;
+    margin-top: 50px;
+    display: flex;
+    
+    width: 250px;
+}
+
+
+.redes_sociales {
+    margin-left: 50%;
+    padding-bottom: 10;
+    background-color: rgb(24, 168, 168);
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-color: navajowhite;
+    border-radius: 10%;
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+    margin-left: 40%;
+
+}
+
+.tarea12, .servicio1 {
+    box-sizing: border-box;
+    margin 20%
+    padding: 30%;
+
+}☻
+
+.tarea21, .servicio2 {
+    box-sizing: border-box;
+    margin 20%
+    padding: 30%;
+
+}
+
+.servicio3 {
+    box-sizing: border-box;
+    margin 20%
+    padding: 30%;}
+
+ form {
+     margin-left: 15%;
+ }
