@@ -1,0 +1,114 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(90, 172, 164, 0.968);
+        font-family: 'Nunito', sans-serif;
+      
+     }
+     .container {
+       display: flex;
+       flex-wrap: wrap;
+     }
+     
+     @meDia (min-width: 600px)
+     {         .head { width: 100%;
+               order: 1;}
+           .main{
+               width: 100%;
+               order: 2;}
+   
+           .div{
+               width: 100%;
+               order: 3;
+           }
+           .footer{ width: 100%;
+               order: 4;
+            }
+            .imagen{width: 75%;
+                order: 5;}
+
+   
+         }
+        
+   
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+li {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+.hola {
+    margin-top: 150px;
+    margin-left: 20px;
+    color: yellow;
+    font-size: 70px;
+    line-height: 2em;
+}
+
+.texto_presentacion {
+    font-size: 25px;
+    margin-left: 75px;
+    color: blue;
+
+}
+
+.imagen {
+    flex-wrap: nowrap;
+    margin-left: 30%   ;
+    margin-right: 50%;
+    margin-top: 50px;
+    display: center    ;
+    width: 250px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.redes_sociales {
+    margin-left: 20px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-color: navajowhite;
+    border-radius: 15%;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 140px;
+}
+
+.tarea12, .servicio1 {
+    margin-left: 75px;
+   
+
+}
+
+.tarea21, .servicio2 {
+   margin-left: 30%;
+   margin-top: -300px;
+
+}
+
+.servicio3 {
+    margin-left: 60%;
+    margin-top: -320px;
+ }
+
+ form {
+     margin-left: 15%;
+ }
