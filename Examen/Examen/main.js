@@ -1,5 +1,5 @@
-// API thedogapi
-const urlApiDograndom = 'https://api.thedogapi.com/v1/images/search?limit=3api_key=1100b599-f09b-4b7f-a110-bb613a8299ea';
+// API thedogapi https://api.thedogapi.com/v1/images/search
+const urlApiDogRandom = 'https://api.thedogapi.com/v1/images/search?limit=4&api_key=1100b599-f09b-4b7f-a110-bb613a8299ea';
 
 //favorite dogs
 const urlApiDogFavorite = 'https://api.thedogapi.com/v1/favourites?3api_key=1100b599-f09b-4b7f-a110-bb613a8299ea';
@@ -9,14 +9,16 @@ const urlAddpiDogFavorite = 'https://api.thedogapi.com/v1/favourites?3api_key=11
 
 //remove dogs
 const urlRemovepidogFavorite = 'https://api.thedogapi.com/v1/favourites/';
-// Funcion obtener perros ramdomicos 
+
+//Funcion obtener perros ramdomicos 
 const getDogRandom = async () => {
     const response = await fetch(urlApiDogRandom);
     const data = await response.json();
-    const div = document.querySelector('#getDogtRandon__dogs');
+
+    const div = document.querySelector('#getDogRandon__dogs');
     const array = [];
     data.forEach(dog => {
-        div.innerHTML= '';
+        //div.innerHTML= '';
         //creando mi imagen 
         const img = document.createElement('img');
         img.src = dog.url
@@ -28,20 +30,24 @@ const getDogRandom = async () => {
         const button = document.createElement('button');
         button.innerHTML = "Agregar a favoritos";
         button.onclick = () =>{
-            addDogsFavorite(dog.id);
+            addDogFavorite(dog.id);
         }
         array.push(button);
     });
     div.append(...array);
-    console.log(data[0].id);
-
 }
+getDogRandom();
+
+
 //funcion para perros favoritos 
 const getDogsFavorite = async () => {
     const response = await fetch (urlApiDogFavorite);
-    const data =await response.json();
+    const data = await response.json();
     const div = document.querySelector('#getDogFavorite__dogs');
     const array = [];
-    data.map(catg)
+    data.map(catg => {
+        const img = document.createElement('img');
+        img.src = catg.img
+    })
 
 }
