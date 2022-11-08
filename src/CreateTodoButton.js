@@ -1,8 +1,9 @@
 import React from "react";
+import './CreateTodoButton.css'
 
 function CreateTodoButton(){
     return(
-        <button> Enviar  </button>
+        <button className="CreateTodoButton Counter " > Enviar  </button>
     );
 }
 

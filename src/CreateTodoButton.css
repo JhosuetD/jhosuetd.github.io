@@ -1,0 +1,17 @@
+
+.button{
+    color: brown; 
+  }
+.Counter{
+    color:white;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:36px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#FFA12B;
+  display:block;
+  position:relative;
+  padding:20px 40px;
+}
+
